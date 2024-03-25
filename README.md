@@ -19,14 +19,14 @@ For some reason I decided to use the browser version rather than the NodeJS vers
 
 ## How to use
 Run the run.js file with
-```javascript
+```sh
 node run.js
 ```
 The example code should output a large 3 and output the word `three`. To set it to your own number, simply change the `testData` variable. Ensure that it's in an 8 across and 7 down grid pattern using only `#` (pound or hashtag) and ` ` (space). Running here will take from the pre-trained model in model.json.
 
 ## How to train
 Train just as you would run it with:
-```javascript
+```sh
 node train.js
 ```
 except of course using train.js rather than run.js. This may take a while deppending on your CPU speed, but more me and most people will most likley be instant as there is not much example data.
