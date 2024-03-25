@@ -16,13 +16,13 @@ const restoredNet = new brain.NeuralNetwork();
 restoredNet.fromJSON(modelJSON);
 
 const testData = (
-  "########" +
-  "      ##" +
-  "      ##" +
-  "########" +
-  "      ##" +
-  "      ##" +
-  "########"
+  "## #### " +
+  "     #  " +
+  "  ###   " +
+  "# #     " +
+  "#       " +
+  "#       " +
+  " ###### "
 );
 
 const output = restoredNet.run(preprocessInput(testData));

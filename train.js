@@ -56,6 +56,15 @@ const trainingData = [
     " #######"
   ), output: { two: 1 } },
   { input: preprocessInput(
+    "####### " +
+    "     #  " +
+    "  ###   " +
+    "###     " +
+    "#       " +
+    "#       " +
+    " ###### "
+  ), output: { two: 1 } },
+  { input: preprocessInput(
     "########" +
     "      ##" +
     "      ##" +
