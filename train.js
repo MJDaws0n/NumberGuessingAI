@@ -250,4 +250,5 @@ fs.writeFileSync('model.json', JSON.stringify(modelJSON));
 
 const output = net.run(testData);
 
-console.log('Test Output:\nInput: 4\nOutput: '+getKeyByMaxValue(output));
+console.log('Test Output:\nInput: 4\nOutput:');
+console.log(output);

@@ -11,12 +11,10 @@ function getKeyByMaxValue(obj) {
     return Object.keys(obj).reduce((a, b) => obj[a] > obj[b] ? a : b);
 }
 
-// Load the neural network model from file
 const modelJSON = JSON.parse(fs.readFileSync('model.json', 'utf-8'));
 const restoredNet = new brain.NeuralNetwork();
 restoredNet.fromJSON(modelJSON);
 
-// Test the restored neural network
 const testData = (
   "########" +
   "      ##" +
